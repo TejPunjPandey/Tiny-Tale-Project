@@ -1,0 +1,85 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.userWrapper{
+    margin-bottom: 30px;
+}
+
+.ImageWrapper{
+    display: flex;
+    width: 100%;
+    padding: 5px 15px;
+    height: 15vh;
+}
+
+.userImageBlock>img{
+   border-radius: 50%;
+   height: 20vh;
+   width: 8rem;
+   border: 3px solid #808080;
+   position: relative;
+   top:-60px;
+}
+
+.userDetails{
+    margin-left: 5%;
+}
+
+.userDetails>h3{
+    margin-top: 6px;
+}
+
+.userFollowersWrapper{
+    display: flex;
+    margin-top: 10px;
+}
+
+.userFollowersWrapper>div{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    align-items: center;
+}
+
+
+.userFollowersWrapper>div>button{
+    height: 35px;
+    width: 90px;
+    font-size: 1.1rem;
+    padding: 5px;
+    background-color: transparent;
+    color: gray;
+    border:2px solid gray;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.userFollowersWrapper>div>p{
+    color: gray;
+}
+
+.userPersonal{
+    margin-top: 15px;
+    padding: 5px 15px;
+}
+
+.userPersonal>p{
+    font-size: 1.2rem;
+}
+
+.userPersonal>a{
+    text-decoration: none;
+}
+
+.userPersonal>div{
+    display: flex;
+    margin-top: 10px;
+}
+
+.userPersonal>div>div{
+    margin-right: 15px;
+}

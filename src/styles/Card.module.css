@@ -1,0 +1,40 @@
+.cardWrapper {
+  border-top: 0.15px solid rgb(228, 218, 218);
+  padding: 30px 1rem 25px 1rem;
+  margin: 5px;
+}
+
+.cardWrapper div:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.cardWrapper div:nth-child(2) p {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.cardWrapper div:nth-child(3) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.75rem;
+}
+
+.cardWrapper div:nth-child(3) ul {
+  display: flex;
+}
+
+.cardWrapper div:nth-child(3) p {
+  font-weight: bold;
+}
+
+.cardWrapper div:nth-child(3) p span {
+  color: rgb(41, 208, 245);
+}
+
+.cardWrapper div:nth-child(3) ul li {
+  margin-right: 8px;
+  list-style-type: none;
+}

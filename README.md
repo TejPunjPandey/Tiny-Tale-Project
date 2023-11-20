@@ -68,4 +68,4 @@ profileData.json
 The profileData.json file serves as a local data source for the React application, providing static information about user profiles. Here's an overview of its structure and purpose:
 
 Deployment link
-https://profile-screen-tau.vercel.app/
+ https://agumentik-project-sooty.vercel.app/
